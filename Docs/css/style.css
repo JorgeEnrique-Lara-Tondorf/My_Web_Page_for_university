@@ -122,6 +122,38 @@ button {
     border: none;
     cursor: pointer;
 }
+.back-button {
+    display: inline-block;
+    background-color: #002855;   /* azul UFV */
+    color: #FFD100;              /* amarillo UFV */
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #001F3D;   /* azul más oscuro UFV */
+}
+
+header nav a {
+    display: inline-block;        /* Hace que se comporte como caja */
+    background-color: #002855;    /* Azul UFV */
+    color: #FFD100;               /* Amarillo UFV */
+    padding: 10px 15px;           /* Espaciado dentro de la caja */
+    margin-right: 10px;           /* Separación entre cajas */
+    border-radius: 6px;           /* Bordes redondeados */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Efecto suave al pasar el ratón */
+}
+
+header nav a:hover {
+    background-color: #001F3D;    /* Azul más oscuro UFV para hover */
+}
+
 
 button:hover {
     background-color: #002855;
