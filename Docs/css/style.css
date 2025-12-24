@@ -1,0 +1,146 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER & NAV */
+header {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+/* BREADCRUMBS */
+.breadcrumbs {
+    font-size: 0.9em;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* MAIN / ARTICLE */
+main,
+article {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* ASIDE */
+aside {
+    background-color: #eee;
+    padding: 15px;
+    margin: 20px;
+    border-left: 5px solid #1f1f1f;
+}
+
+/* IMAGES */
+img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/* FORMS */
+form {
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* NET */
+.partner {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
