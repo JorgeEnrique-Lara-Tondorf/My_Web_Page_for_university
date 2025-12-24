@@ -7,9 +7,9 @@
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #f2f2f2;
-    color: #333;
+    color: #002855;
     line-height: 1.6;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 
 
 header {
-    background-color: #1f1f1f;
+    background-color: #002855;
     color: white;
     padding: 20px;
 }
@@ -43,7 +43,7 @@ nav a {
 .breadcrumbs {
     font-size: 0.9em;
     margin: 10px 0;
-    color: #555;
+    color: #002855;
 }
 
 main,
@@ -69,7 +69,7 @@ aside {
     background-color: #eee;
     padding: 15px;
     margin: 20px;
-    border-left: 5px solid #1f1f1f;
+    border-left: 5px solid #002855;
 }
 
 
@@ -92,7 +92,7 @@ th, td {
 }
 
 th {
-    background-color: #1f1f1f;
+    background-color: #002855;
     color: white;
 }
 
@@ -117,14 +117,14 @@ textarea {
 button {
     margin-top: 15px;
     padding: 10px;
-    background-color: #1f1f1f;
+    background-color: #002855;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #444;
+    background-color: #002855;
 }
 
 .partner {
@@ -136,7 +136,7 @@ button:hover {
 
 
 footer {
-    background-color: #1f1f1f;
+    background-color: #002855;
     color: white;
     text-align: center;
     padding: 15px;
@@ -180,14 +180,14 @@ footer {
 }
 
 .fce nav li {
-    background-color: #333;
+    background-color: #002855;
     color: white;
     padding: 8px 12px;
     border-radius: 4px;
 }
 
 .fce section {
-    border-left: 4px solid #333;
+    border-left: 4px solid #002855;
     padding-left: 15px;
 }
 .topic section {
@@ -219,11 +219,21 @@ footer {
 .contact input:focus,
 .contact textarea:focus {
     outline: none;
-    border: 2px solid #333;
+    border: 2px solid #002855;
 }
-/* IMAGES */
+
 img {
     max-width: 200px;
     margin: 10px;
     border-radius: 6px;
 }       
+.top-right {
+    position: absolute; 
+    top: 10px;          
+    right: 10px;        
+}
+
+.top-right img {
+    width: 200px;       
+    height: auto;
+}
