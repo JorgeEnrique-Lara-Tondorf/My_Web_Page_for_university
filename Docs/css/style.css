@@ -1,11 +1,11 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* GENERAL */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
@@ -22,7 +22,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* HEADER & NAV */
+
 header {
     background-color: #1f1f1f;
     color: white;
@@ -39,14 +39,13 @@ nav a {
     font-weight: bold;
 }
 
-/* BREADCRUMBS */
+
 .breadcrumbs {
     font-size: 0.9em;
     margin: 10px 0;
     color: #555;
 }
 
-/* MAIN / ARTICLE */
 main,
 article {
     background: white;
@@ -65,7 +64,7 @@ section h2 {
     padding-bottom: 5px;
 }
 
-/* ASIDE */
+
 aside {
     background-color: #eee;
     padding: 15px;
@@ -73,14 +72,14 @@ aside {
     border-left: 5px solid #1f1f1f;
 }
 
-/* IMAGES */
+
 img {
     max-width: 200px;
     margin: 10px;
     border-radius: 6px;
 }
 
-/* TABLES */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -97,7 +96,7 @@ th {
     color: white;
 }
 
-/* FORMS */
+
 form {
     max-width: 500px;
 }
@@ -128,7 +127,6 @@ button:hover {
     background-color: #444;
 }
 
-/* NET */
 .partner {
     border: 1px solid #ccc;
     padding: 15px;
@@ -136,7 +134,7 @@ button:hover {
     border-radius: 6px;
 }
 
-/* FOOTER */
+
 footer {
     background-color: #1f1f1f;
     color: white;
@@ -144,3 +142,88 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
+.about img {
+    max-width: 180px;
+    border: 2px solid #ccc;
+}
+
+.about section {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.about ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+.about li {
+    margin-bottom: 8px;
+}
+.degree table {
+    margin-top: 25px;
+}
+
+.degree tr:hover {
+    background-color: #f0f0f0;
+}
+
+.degree a {
+    font-weight: bold;
+}
+.fce nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.fce nav li {
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.fce section {
+    border-left: 4px solid #333;
+    padding-left: 15px;
+}
+.topic section {
+    max-width: 800px;
+}
+
+.topic p {
+    text-align: justify;
+}
+.net .partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.net .partner h3 {
+    margin-bottom: 5px;
+}
+.net .partner p {
+    flex: 1;
+    margin-left: 15px;
+}
+.contact form {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border: 2px solid #333;
+}
+/* IMAGES */
+img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 6px;
+}       
