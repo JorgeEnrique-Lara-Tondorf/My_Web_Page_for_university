@@ -1,2 +1,27 @@
 # My_Web_Page_for_university
-This is a Practical work for my university degree
+This is a Practical work for my university degree.
+
+This is my **class practiceII** in web development, assigned by my teacher Moisés.  
+In this project, I created a personal website where I present information about myself and my interests.
+
+## Project Structure
+
+- I created the necessary folders to organize the files.  
+- I created the **HTML** and **CSS** files for the website.
+
+## Main Files
+
+- `index.html` – Main page of the website.  
+- `aboutme.html` – Section about me and my interests.  
+- `net.html` – Page related to networks or connections.  
+- `topic.html` – Page about specific topics of interest.  
+- `degree.html` – Information about my academic background.  
+- `contact.html` – Contact page.  
+- `style.css` – CSS file where I defined the styles for all pages.
+
+## Features
+
+- Structured and organized design using HTML and CSS.  
+- Navigation between pages via internal links.  
+- Inclusion of LinkedIn and GitHub icons with external links.  
+- Clean and responsive design for visitors.
