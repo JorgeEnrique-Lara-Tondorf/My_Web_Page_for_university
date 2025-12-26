@@ -25,3 +25,6 @@ In this project, I created a personal website where I present information about 
 - Navigation between pages via internal links.  
 - Inclusion of LinkedIn and GitHub icons with external links.  
 - Clean and responsive design for visitors.
+
+- Placed mi github and linkedink in the footer dor contact and adding the text to the index
+- Change in the margin for index
