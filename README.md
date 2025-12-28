@@ -28,3 +28,17 @@ In this project, I created a personal website where I present information about 
 
 - Placed mi github and linkedink in the footer dor contact and adding the text to the index
 - Change in the margin for index
+- Added complete "Topic" page - Agriculture Robotics (Group 6)
+- Updated "About" section with integrated CV and profile photo
+- Added "Net" page with direct links to group mates
+- Completely redesigned CSS - Modern responsive design
+- New FCE subpage - Detailed explanation of the subject (units, practicals, PDFs)
+- Optimized images - External URLs + local copies in /images/
+- Improved navigation menu with hover effects
+- Adjusted margins and spacing for perfect PDF printing- Fully responsive design - Mobile/tablet/desktop compatible
+- GitHub Pages deployment - Live at: https://your-username.github.io/fce-web/
+- PDF optimized - Ctrl+P for instant CV
+- Interactive hover effects - Buttons, images, tables
+- Visual themes - FCE (blue), Agriculture (green), Professional contact
+- modify meno  visual style
+
